@@ -1,4 +1,4 @@
-package com.tratagroup.demotest
+package com.vansh.genericrecyclerview
 
 import android.content.Context
 import android.view.View

@@ -1,11 +1,9 @@
-package com.tratagroup.demotest
+package com.vansh.genericrecyclerview
 
-import android.content.DialogInterface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.person_list_item.*
 
 class MainActivity : AppCompatActivity() {
 

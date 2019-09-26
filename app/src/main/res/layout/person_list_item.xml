@@ -28,6 +28,7 @@
         android:layout_height="20sp"
        text:srcCompat="@drawable/ic_fab"
         android:layout_gravity="end"
+        android:rotation="45"
         tools:ignore="VectorDrawableCompat" />
 
     <View

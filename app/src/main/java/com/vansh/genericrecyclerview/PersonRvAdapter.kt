@@ -1,18 +1,18 @@
-package com.tratagroup.demotest
+package com.vansh.genericrecyclerview
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import kotlinx.android.synthetic.main.person_list_item.view.*
-import java.util.zip.Inflater
 
 /**
  * Created by Ganesh Junghare on 9/13/2019.
  */
-class PersonRvAdapter(var personList : MutableList<PersonBean>):MyGenericAdapter<PersonBean>(personList) {
+class PersonRvAdapter(var personList : MutableList<PersonBean>): MyGenericAdapter<PersonBean>(personList) {
 
-    override fun newView(context: Context, parent: ViewGroup) = LayoutInflater.from(context).inflate(R.layout.person_list_item, parent, false)
+    override fun newView(context: Context, parent: ViewGroup) = LayoutInflater.from(context).inflate(
+        R.layout.person_list_item, parent, false)
 
     override fun bind(t: PersonBean, view: View, position: Int) {
         view.idTvPersonName.text = t.name

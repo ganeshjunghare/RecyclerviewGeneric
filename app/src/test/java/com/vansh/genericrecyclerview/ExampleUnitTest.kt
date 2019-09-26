@@ -1,4 +1,4 @@
-package com.tratagroup.demotest
+package com.vansh.genericrecyclerview
 
 import org.junit.Test
 
